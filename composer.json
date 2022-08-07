@@ -1,0 +1,20 @@
+{
+    "name": "danilocgsilva/pdo_string_builder",
+    "description": "Automatically creates a string to be used by PHP Pdo object based on database credentials",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilva\\PdoStringBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Carlos",
+            "email": "contact@danilocgsilva.me"
+        }
+    ],
+    "require": {}
+}
